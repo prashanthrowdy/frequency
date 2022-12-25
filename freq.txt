@@ -1,0 +1,7 @@
+n=input()
+li=sorted(n)
+li1=[]
+for i in li:
+    if i not in li1:
+        li1.append(i)
+        print("The frequency of {} is {}".format(i,li.count(i)))
